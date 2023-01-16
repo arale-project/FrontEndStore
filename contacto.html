@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Hoja de estilos & Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/logo.png" alt="logo tienda">
+        </a>
+    </header><!-- fin header -->
+
+    <nav class="navegacion">
+        <a href="index.html" class="navegacion__enlace">Tienda</a>
+        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+        <a href="contacto.html" class="navegacion__enlace navegacion__enlace--activo">Contacto</a>
+    </nav><!-- fin nav -->
+
+    <main class="contenedor">
+        <h1>Contáctanos</h1>
+
+        <form class="contacto">
+            <fieldset class="contacto__fieldset">
+                <legend class="contacto__legend">Contáctanos llenando los campos </legend>
+                <div class="contacto__formulario">
+
+                    <input type="text" class="contacto__campo" placeholder="Nombre">
+                    <input type="tel" class="contacto__campo" placeholder="Teléfono">
+                    <input type="email" class="contacto__campo" placeholder="E-mail">
+                    <textarea class="contacto__campo--text-area" placeholder="Mensaje"></textarea>
+                </div><!-- fin contacto -->
+                <div class="contacto__boton">
+                    <input type="submit" class="contacto__enviar" value="Enviar">
+                </div><!-- fin contacto__boton -->
+            </fieldset><!-- fin fieldset -->
+        </form><!-- fin contacto__formulario -->
+
+
+
+    </main><!-- fin main -->
+    <footer class="footer">
+        <p class="footer__texto">FrontEnd Store. Gilberto Reyes.</p>
+    </footer><!-- fin footer -->
+
+</body><!-- fin body -->
+
+</html>
