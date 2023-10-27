@@ -161,13 +161,13 @@ img {
 
 .grafico--camisas {
 
-    background-image: url(/img/grafico1.jpg);
+    background-image: url(../img/grafico1.jpg);
     grid-column: 1/3;
     grid-row: 2/3;
 }
 
 .grafico--nodejs {
-    background-image: url(/img/grafico2.jpg);
+    background-image: url(../img/grafico2.jpg);
     grid-column: 2/4;
     grid-row: 4/5;
 }
